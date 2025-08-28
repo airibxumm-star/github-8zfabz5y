@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Center - Decentralized Git Hosting</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="." class="header-brand">
+                <img src="./assets/img/logo-white.svg" class="header-logo" alt="Git Center">
+                <span class="header-name">Git Center</span>
+            </a>
+            <nav class="header-nav">
+                <a href="./index/" class="header-item">Repository Index</a>
+                <a href="./myrepos/" class="header-item">My Repos</a>
+                <a href="./guide/" class="header-item">Guide</a>
+                <a href="./support/" class="header-item">Support</a>
+                <a href="./profile/" class="header-item">Profile</a>
+                <a href="./for-devs/" class="header-item">For Devs</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1>Welcome to Git Center!</h1>
+            <p class="hero-description">
+                <strong>Git Center</strong> is a decentralized hosting platform for Git repositories. 
+                We provide collaboration features such as bug tracking for every project, 
+                and private and public repositories for free. Join us by creating a new repository.
+            </p>
+            <p class="hero-note">
+                <strong>Git Center</strong> is built using ZeroNet, so its workflow differs from GitHub. 
+                If you have any questions, <a href="support/">ask us for support</a>.
+            </p>
+            <div class="hero-actions">
+                <a href="guide/" class="btn btn-secondary">Beginner's Guide</a>
+                <button id="create_repository" class="btn btn-primary btn-disabled">New Repository</button>
+            </div>
+        </section>
+
+        <section class="contributors">
+            <h2>Contributors</h2>
+            <p>If I missed you, mail me <a href="/Mail.ZeroNetwork.bit/?to=gitcenter">here</a>.</p>
+            <ul class="contributors-list">
+                <li>Krixano - contributor, tester</li>
+                <li>Binchan - contributor, tester</li>
+                <li>ixhb5a7vwvdgimjx - beta-testing</li>
+                <li>affeali - domain</li>
+            </ul>
+        </section>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
